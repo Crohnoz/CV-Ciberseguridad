@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enrique Flores Schacht - Especialista en Ciberseguridad</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<main>
+  <header style="display: flex; align-items: center; justify-content: space-between;">
+    <img src="assets/img/enriqueflores.jpg" alt="Foto de perfil" style="width: 150px; height: auto; border-radius: 50%;">
+    <h1>Enrique Flores Schacht</h1>
+  </header>
+
+  <section>
+    <h2>Información de Contacto</h2>
+    <ul>
+      <li>Vasco de Gama 4702, Las Condes, Santiago, Chile</li>
+      <li>prog.eflores@gmail.com</li>
+      <li>+56951779823</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/enrique-flores-06b86927b/" target="_blank">Perfil de LinkedIn</a></li>
+      <li>Credly: <a href="https://www.credly.com/users/enrique-flores.0ad5a3ba/" target="_blank">Perfil de Credly</a></li>
+      <li>FreeCodeCamp.org: <a href="https://www.freecodecamp.org/certification/EnriqueFlores/responsive-web-design" target="_blank">Certificado Responsive Web Design</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Resumen Profesional</h2>
+    <p>Profesional en formación en el área de Ciberseguridad, con una base sólida en desarrollo Fullstack y un interés profundo en la protección de infraestructuras digitales. He completado certificaciones relevantes en ciberseguridad, como la otorgada por Google, y estoy enfocado en seguir aprendiendo y aplicando medidas de seguridad en diversos entornos. Mi experiencia en desarrollo web me brinda una perspectiva integral para abordar la seguridad desde diferentes ángulos, y estoy motivado para seguir desarrollando mis habilidades en este campo.</p>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <ul>
+      <li>Google Coursera - Certificación en Ciberseguridad - Junior Analyst <br> Agosto 2024</li>
+      <li>Desafío Latam - Santiago, Chile <br> Desarrollo de Aplicaciones Full Stack Python Trainee - Julio 2024</li>
+      <li>AIWT - RTO Code 51174 - Perth, Western Australia <br> Cert IV in WHS (Work Health and Safety) - Octubre 2016</li>
+      <li>AIWT - RTO Code 51174 - Perth, Western Australia <br> Cert IV in Training and Assessment - Octubre 2015</li>
+      <li>INACAP, Temuco, Chile <br> Gestión de servicios turísticos y de viajes: Mención Turismo Aventura - Diciembre 2013</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certificaciones y Licencias</h2>
+    <ul>
+      <li>Google Professional Certificate in Cybersecurity - Ago. 2024</li>
+      <li>Ethical Hacker (Cisco) - Sept. 2023</li>
+      <li>CompTIA Security+ - Dic. 2023</li>
+      <li>Ciberseguridad Práctica: Servidores y Estaciones de Trabajo - Dic. 2023</li>
+      <li>Ataques, Amenazas y Vulnerabilidades de Ciberseguridad (CompTIA Security+ SY0-601) - Dic. 2023</li>
+      <li>Red Hat Enterprise Linux 8 Essential Training - Dic. 2023</li>
+      <li>SCRUM: Anti patrones - Dic. 2023</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Análisis de Vulnerabilidades</li>
+      <li>Implementación de Firewalls</li>
+      <li>Respuesta ante Incidentes</li>
+      <li>Ethical Hacking</li>
+      <li>Gestión de Seguridad en Redes</li>
+      <li>Python</li>
+      <li>Django</li>
+      <li>MySQL</li>
+      <li>PostgreSQL</li>
+      <li>Red Hat Enterprise Linux</li>
+      <li>SCRUM</li>
+      <li>Inglés (avanzado)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experiencia Laboral</h2>
+    <ul>
+      <li>CBRE - Bilingual Receptionist <br> Diciembre 2023 - Marzo 2024</li>
+      <li>Servicios Odontológicos Araucanía - Jefe Administrativo <br> Diciembre 2016 - Octubre 2022</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="matrix-container">
+      <div class="matrix"></div>
+    </div>
+    <p>Enrique Flores Derechos Reservados &copy; 2024</p>
+  </footer>
+
+  <script>
+    // Script para generar el efecto Matrix en el footer
+    const matrixContainer = document.querySelector('.matrix');
+    const characters = '01';
+    const delay = 50;
+
+    function generateMatrix() {
+      const matrixText = Array.from({ length: 2000 }, () => characters[Math.floor(Math.random() * characters.length)]).join('');
+      matrixContainer.textContent = matrixText;
+    }
+
+    setInterval(generateMatrix, delay);
+  </script>
+</main>
+</body>
+</html>
